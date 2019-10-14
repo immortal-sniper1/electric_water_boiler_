@@ -60,7 +60,7 @@ data:extend({
       production_type = "output",
       filter = "steam"
     },
-    energy_consumption = "3.0MW",
+    energy_consumption = "6.0MW",
   energy_source =
   {
     type = "electric",
@@ -437,6 +437,13 @@ data:extend({
   },
 
 
+
+
+
+
+
+
+
 ---------------------------------------
 
 
@@ -496,7 +503,7 @@ data:extend({
       production_type = "output",
       filter = "steam"
     },
-    energy_consumption = "5.15MW",
+    energy_consumption = "10.3MW",
   energy_source =
   {
     type = "electric",
@@ -874,7 +881,14 @@ data:extend({
 
 
 
+
+
+
+
+
 ---------------------------------------------
+
+--[[
 
 {
     type = "boiler",
@@ -1309,6 +1323,13 @@ data:extend({
   },
 
 
+
+
+--]]
+
+
+
+
 ---------------------------------------
 
 
@@ -1368,7 +1389,7 @@ data:extend({
       production_type = "output",
       filter = "steam"
     },
-    energy_consumption = "6.75MW",
+    energy_consumption = "18MW",
   energy_source =
   {
     type = "electric",
