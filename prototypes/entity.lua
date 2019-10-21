@@ -454,7 +454,7 @@ data:extend({
   icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "electric-boiler-mk2"},
-    max_health = 200,
+    max_health = 400,
     corpse = "small-remnants",
   collision_box = {{-1.29, -0.79}, {1.29, 0.79}},
     selection_box = {{-1.5, -1}, {1.5, 1}},
@@ -503,7 +503,7 @@ data:extend({
       production_type = "output",
       filter = "steam"
     },
-    energy_consumption = "10.3MW",
+    energy_consumption = "15MW",
   energy_source =
   {
     type = "electric",
@@ -886,9 +886,6 @@ data:extend({
 
 
 
----------------------------------------------
-
---[[
 
 {
     type = "boiler",
@@ -897,7 +894,7 @@ data:extend({
   icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "electric-boiler-mk2"},
-    max_health = 200,
+    max_health = 400,
     corpse = "small-remnants",
   collision_box = {{-1.29, -0.79}, {1.29, 0.79}},
     selection_box = {{-1.5, -1}, {1.5, 1}},
@@ -946,7 +943,7 @@ data:extend({
       production_type = "output",
       filter = "steam"
     },
-    energy_consumption = "3.0MW",
+    energy_consumption = "15MW",
   energy_source =
   {
     type = "electric",
@@ -1325,8 +1322,6 @@ data:extend({
 
 
 
---]]
-
 
 
 
@@ -1340,7 +1335,7 @@ data:extend({
   icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "electric-boiler-mk3"},
-    max_health = 200,
+    max_health = 600,
     corpse = "small-remnants",
   collision_box = {{-1.29, -0.79}, {1.29, 0.79}},
     selection_box = {{-1.5, -1}, {1.5, 1}},
@@ -1389,7 +1384,7 @@ data:extend({
       production_type = "output",
       filter = "steam"
     },
-    energy_consumption = "18MW",
+    energy_consumption = "25MW",
   energy_source =
   {
     type = "electric",
@@ -1779,7 +1774,7 @@ data:extend({
   icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "electric-boiler-mk4"},
-    max_health = 900,
+    max_health = 1900,
     corpse = "small-remnants",
   collision_box = {{-2.79, -1.39}, {2.79, 1.39}},
     selection_box = {{-3, -1.5}, {3, 1.5}},
