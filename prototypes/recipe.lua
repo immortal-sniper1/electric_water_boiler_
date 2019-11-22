@@ -35,10 +35,10 @@ enabled = "false",
 ingredients = {
 {"boiler", 5}, 
 {"electric-boiler-mk2", 2}, 
-{"advanced-circuit", 100},
-{"iron-plate", 150},
-{"copper-plate", 500},
-{"steel-plate", 350}
+{"advanced-circuit", 10},
+{"iron-plate", 100},
+{"copper-plate", 200},
+{"steel-plate", 150}
 },
 result = "electric-boiler-mk3"
 },
@@ -49,11 +49,11 @@ name = "electric-boiler-mk4",
 enabled = "false",
 ingredients = {
 {"boiler", 5}, 
-{"electric-boiler-mk3", 4}, 
-{"processing-unit", 100},
-{"iron-plate", 350},
-{"copper-plate", 600},
-{"steel-plate", 550}
+{"electric-boiler-mk3", 2}, 
+{"processing-unit", 1},
+{"iron-plate", 150},
+{"copper-plate", 200},
+{"steel-plate", 150}
 },
 result = "electric-boiler-mk4"
 },
