@@ -11,6 +11,9 @@ order = "b[steam-power]-a[electric-boiler]",
 place_result = "electric-boiler-mk1",
 stack_size = 50,
 },
+
+
+
 {
 type = "item",
 name = "electric-boiler-mk2",
@@ -22,6 +25,9 @@ order = "b[steam-power]-a[electric-boiler]",
 place_result = "electric-boiler-mk2",
 stack_size = 50,
 },
+
+
+
 {
 type = "item",
 name = "electric-boiler-mk3",

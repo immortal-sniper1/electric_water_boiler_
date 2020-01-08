@@ -14,6 +14,8 @@ ingredients = {
 },
 result = "electric-boiler-mk1"
 },
+
+
 {
 type = "recipe",
 name = "electric-boiler-mk2",
@@ -27,6 +29,7 @@ ingredients = {
 },
 result = "electric-boiler-mk2"
 },
+
 
 {
 type = "recipe",
