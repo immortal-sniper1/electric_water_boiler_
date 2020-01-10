@@ -444,6 +444,12 @@ data:extend({
 
 
 
+
+
+
+
+
+
 ---------------------------------------
 
 
@@ -510,7 +516,7 @@ data:extend({
     effectivity = 0.7,
     input_priority = "secondary",
     usage_priority = "secondary-input",
-    emissions = 0.00000000001 / 6,
+    emissions = 0.000001 / 6,
   },
     working_sound =
     {
@@ -884,6 +890,9 @@ data:extend({
 
 
 
+
+
+--------------------------------
 
 
 
@@ -950,7 +959,7 @@ data:extend({
     effectivity = 0.6,
     input_priority = "secondary",
     usage_priority = "secondary-input",
-    emissions = 0.00000000000001 / 6,
+    emissions = 0.00000001 / 6,
   },
     working_sound =
     {
@@ -1318,6 +1327,13 @@ data:extend({
     },
     burning_cooldown = 10
   },
+
+
+
+
+
+
+
 
 
 
@@ -1391,7 +1407,7 @@ data:extend({
     effectivity = 0.8,
     input_priority = "secondary",
     usage_priority = "secondary-input",
-    emissions = 0.000000000000007 / 6,
+    emissions = 0.00000004 / 6,
   },
     working_sound =
     {
@@ -1759,6 +1775,17 @@ data:extend({
     },
     burning_cooldown = 10
   },
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1838,7 +1865,7 @@ data:extend({
     effectivity = 0.95,
     input_priority = "secondary",
     usage_priority = "secondary-input",
-    emissions = 0.00000000000000000000000001 / 6,
+    emissions = 0.0000000004 / 6,
   },
     working_sound =
     {

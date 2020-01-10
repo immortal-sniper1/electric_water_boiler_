@@ -96,7 +96,7 @@ stack_size = 50,
 
 {
 type = "recipe",
-name = "electric-boiler-mk4bb",
+name = "electric-boiler-mk4b",
 
 ingredients = {
 {"electronic-circuit", 1}, 
@@ -113,7 +113,7 @@ result = "electric-boiler-mk4-b"
 {
     type = "boiler",
     name = "electric-boiler-mk2-b",
-    icon = "electric_water_boiler/graphics/icons/boiler2.png",
+    icon = "__electric_water_boiler__/graphics/icons/boiler2.png",
   icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "electric-boiler-mk2"},
