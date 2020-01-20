@@ -5,7 +5,7 @@ if mods['bobpower'] then
 {
 type = "item",
 name = "electric-boiler-mk2-b",
-icon = "__electric_water_boiler__/graphics/icons/boiler2.png",
+icon = "__electric_water_boiler__/graphics/icons/boiler2-b.png",
 icon_size = 32,
 
 subgroup = "energy",
@@ -32,7 +32,7 @@ result = "electric-boiler-mk2-b"
 {
 type = "item",
 name = "electric-boiler-mk3-b",
-icon = "__electric_water_boiler__/graphics/icons/boiler3.png",
+icon = "__electric_water_boiler__/graphics/icons/boiler3-b.png",
 icon_size = 32,
 
 subgroup = "energy",
@@ -59,7 +59,7 @@ result = "electric-boiler-mk3-b"
 {
 type = "item",
 name = "electric-boiler-mk4-b",
-icon = "__electric_water_boiler__/graphics/icons/boiler4.png",
+icon = "__electric_water_boiler__/graphics/icons/boiler4-b.png",
 icon_size = 32,
 
 subgroup = "energy",
@@ -74,17 +74,20 @@ name = "electric-boiler-mk4b",
 
 ingredients = {
 {"electronic-circuit", 1}, 
-{"electric-boiler-mk3", 1}, 
+{"electric-boiler-mk4", 1}, 
 
 },
 result = "electric-boiler-mk4-b"
 },
 
 
+
+
+
 {
 type = "item",
 name = "electric-boiler-mk4-bb",
-icon = "__electric_water_boiler__/graphics/icons/boiler4.png",
+icon = "__electric_water_boiler__/graphics/icons/boiler4-bb.png",
 icon_size = 32,
 
 subgroup = "energy",
@@ -96,14 +99,14 @@ stack_size = 50,
 
 {
 type = "recipe",
-name = "electric-boiler-mk4b",
+name = "electric-boiler-mk4bb",
 
 ingredients = {
 {"electronic-circuit", 1}, 
-{"electric-boiler-mk3", 1}, 
+{"electric-boiler-mk4", 1}, 
 
 },
-result = "electric-boiler-mk4-b"
+result = "electric-boiler-mk4-bb"
 },
 
 
@@ -113,7 +116,7 @@ result = "electric-boiler-mk4-b"
 {
     type = "boiler",
     name = "electric-boiler-mk2-b",
-    icon = "__electric_water_boiler__/graphics/icons/boiler2.png",
+    icon = "__electric_water_boiler__/graphics/icons/boiler2-b.png",
   icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "electric-boiler-mk2"},
@@ -553,7 +556,7 @@ result = "electric-boiler-mk4-b"
 {
     type = "boiler",
     name = "electric-boiler-mk2",
-    icon = "__electric_water_boiler__/graphics/icons/boiler2.png",
+    icon = "__electric_water_boiler__/graphics/icons/boiler2-b.png",
   icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "electric-boiler-mk2-b"},
@@ -990,7 +993,7 @@ result = "electric-boiler-mk4-b"
 {
     type = "boiler",
     name = "electric-boiler-mk3-b",
-    icon = "__electric_water_boiler__/graphics/icons/boiler3.png",
+    icon = "__electric_water_boiler__/graphics/icons/boiler3-b.png",
   icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "electric-boiler-mk3"},
@@ -1426,7 +1429,7 @@ result = "electric-boiler-mk4-b"
 {
     type = "boiler",
     name = "electric-boiler-mk4-b",
-    icon = "__electric_water_boiler__/graphics/icons/boiler4.png",
+    icon = "__electric_water_boiler__/graphics/icons/boiler4-b.png",
   icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "electric-boiler-mk4"},
@@ -1871,7 +1874,7 @@ result = "electric-boiler-mk4-b"
 {
     type = "boiler",
     name = "electric-boiler-mk4-bb",
-    icon = "__electric_water_boiler__/graphics/icons/boiler4.png",
+    icon = "__electric_water_boiler__/graphics/icons/boiler4-bb.png",
   icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "electric-boiler-mk4"},
