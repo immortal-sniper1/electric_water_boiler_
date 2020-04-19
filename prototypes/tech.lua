@@ -44,6 +44,10 @@ effects =
   type = "unlock-recipe",
   recipe = "electric-boiler-mk2"
   },
+    {
+  type = "unlock-recipe",
+  recipe = "electric-boiler-mk1-2"
+  },
 },
 unit = 
 {
@@ -76,6 +80,10 @@ effects =
   type = "unlock-recipe",
   recipe = "electric-boiler-mk3"
   },
+    {
+  type = "unlock-recipe",
+  recipe = "electric-boiler-mk2-2"
+  },
 },
 unit = 
 {
@@ -107,6 +115,14 @@ effects =
   {
   type = "unlock-recipe",
   recipe = "electric-boiler-mk4"
+  },
+    {
+  type = "unlock-recipe",
+  recipe = "electric-boiler-mk3-2"
+  },
+    {
+  type = "unlock-recipe",
+  recipe = "electric-boiler-mk4-2"
   },
 },
 unit = 
