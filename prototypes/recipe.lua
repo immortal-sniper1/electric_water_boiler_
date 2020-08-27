@@ -29,7 +29,7 @@ ingredients = {
 {"electronic-circuit", 5},
 {"iron-plate", 10},
 {"tin-plate", 5},
-{"al-plate", 5},
+{"aluminium-plate", 5},
 {"copper-plate", 20}
 },
 result = "electric-boiler-mk2"
@@ -45,7 +45,7 @@ ingredients = {
 {"electronic-circuit", 5},
 {"iron-plate", 10},
 {"tin-plate", 5},
-{"al-plate", 5},
+{"aluminium-plate", 5},
 {"copper-plate", 20},
 {"steel-plate", 15}
 },
@@ -61,9 +61,9 @@ ingredients = {
 {"advanced-circuit", 1},
 {"iron-plate", 10},
 {"tin-plate", 5},
-{"al-plate", 5},
+{"aluminium-plate", 5},
 {"copper-plate", 20},
-{"super-steel-plate", 15}
+{"stainless-steel", 15}
 },
 result = "electric-boiler-mk4"
 },
@@ -93,7 +93,7 @@ ingredients = {
 {"electronic-circuit", 5},
 {"iron-plate", 10},
 {"tin-plate", 5},
-{"al-plate", 5},
+{"aluminium-plate", 5},
 {"copper-plate", 20}
 },
 result = "electric-boiler-mk2-2"
@@ -109,7 +109,7 @@ ingredients = {
 {"advanced-circuit", 2},
 {"iron-plate", 10},
 {"tin-plate", 15},
-{"al-plate", 15},
+{"aluminium-plate", 15},
 {"copper-plate", 20},
 {"steel-plate", 150}
 },
@@ -126,7 +126,7 @@ ingredients = {
 {"advanced-circuit", 10},
 {"iron-plate", 10},
 {"tin-plate", 5},
-{"al-plate", 5},
+{"aluminium-plate", 5},
 {"copper-plate", 20},
 {"steel-plate", 15}
 },
@@ -171,7 +171,7 @@ ingredients = {
 {"electronic-circuit", 5},
 {"iron-plate", 10},
 {"tin-plate", 5},
-{"al-plate", 5},
+{"aluminium-plate", 5},
 {"copper-plate", 20}
 },
 result = "electric-boiler-mk2"
@@ -187,7 +187,7 @@ ingredients = {
 {"electronic-circuit", 5},
 {"iron-plate", 10},
 {"tin-plate", 5},
-{"al-plate", 5},
+{"aluminium-plate", 5},
 {"copper-plate", 20},
 {"steel-plate", 15}
 },
@@ -203,9 +203,9 @@ ingredients = {
 {"advanced-circuit", 1},
 {"iron-plate", 10},
 {"tin-plate", 5},
-{"al-plate", 5},
+{"aluminium-plate", 5},
 {"copper-plate", 20},
-{"super-steel-plate", 15}
+{"stainless-steel", 15}
 },
 result = "electric-boiler-mk4"
 },
@@ -235,7 +235,7 @@ ingredients = {
 {"electronic-circuit", 5},
 {"iron-plate", 10},
 {"tin-plate", 5},
-{"al-plate", 5},
+{"aluminium-plate", 5},
 {"copper-plate", 20}
 },
 result = "electric-boiler-mk2-2"
@@ -251,9 +251,10 @@ ingredients = {
 {"advanced-circuit", 2},
 {"iron-plate", 10},
 {"tin-plate", 15},
-{"al-plate", 15},
+{"aluminium-plate", 15},
 {"copper-plate", 20},
-{"steel-plate", 150}
+{"stainless-steel", 15},
+{"steel-plate", 50}
 },
 result = "electric-boiler-mk3-2"
 },
@@ -268,9 +269,10 @@ ingredients = {
 {"advanced-circuit", 10},
 {"iron-plate", 10},
 {"tin-plate", 5},
-{"al-plate", 5},
+{"aluminium-plate", 5},
 {"copper-plate", 20},
-{"steel-plate", 15}
+{"steel-plate", 15},
+{"stainless-steel", 15}
 },
 result = "electric-boiler-mk4-2"
 },
@@ -306,7 +308,7 @@ enabled = "false",
 ingredients = {
 {"boiler", 5}, 
 {"electric-boiler-mk1", 2}, 
-{"electronic-circuit", 50},
+{"electronic-circuit", 20},
 {"iron-plate", 100},
 {"copper-plate", 200}
 },
@@ -322,9 +324,9 @@ ingredients = {
 {"boiler", 5}, 
 {"electric-boiler-mk2", 2}, 
 {"advanced-circuit", 10},
-{"iron-plate", 100},
-{"copper-plate", 200},
-{"steel-plate", 150}
+{"iron-plate", 50},
+{"copper-plate", 100},
+{"steel-plate", 50}
 },
 result = "electric-boiler-mk3"
 },
@@ -367,7 +369,7 @@ enabled = "false",
 ingredients = {
 {"boiler", 15}, 
 {"electric-boiler-mk1-2", 10}, 
-{"electronic-circuit", 50},
+{"electronic-circuit", 5},
 {"iron-plate", 100},
 {"copper-plate", 200}
 },
@@ -382,7 +384,7 @@ enabled = "false",
 ingredients = {
 {"boiler", 15}, 
 {"electric-boiler-mk2-2", 10}, 
-{"advanced-circuit", 20},
+{"advanced-circuit", 2},
 {"iron-plate", 100},
 {"copper-plate", 200},
 {"steel-plate", 150}
