@@ -68,6 +68,21 @@ ingredients = {
 result = "electric-boiler-mk4"
 },
 
+{
+type = "recipe",
+name = "electric-boiler-mk5",
+enabled = "false",
+ingredients = {
+{"electric-boiler-mk4", 2}, 
+{"advanced-circuit", 1},
+{"iron-plate", 10},
+{"tin-plate", 5},
+{"aluminium-plate", 5},
+{"copper-plate", 20},
+{"stainless-steel", 15}
+},
+result = "electric-boiler-mk5"
+},
 ---500C----
 
 {
@@ -133,6 +148,22 @@ ingredients = {
 result = "electric-boiler-mk4-2"
 },
 
+{
+type = "recipe",
+name = "electric-boiler-mk5-2",
+enabled = "false",
+ingredients = {
+{"boiler", 15}, 
+{"electric-boiler-mk4-2", 10}, 
+{"advanced-circuit", 10},
+{"iron-plate", 10},
+{"tin-plate", 5},
+{"aluminium-plate", 5},
+{"copper-plate", 20},
+{"steel-plate", 15}
+},
+result = "electric-boiler-mk5-2"
+},
 
 
 })
@@ -210,6 +241,21 @@ ingredients = {
 result = "electric-boiler-mk4"
 },
 
+{
+type = "recipe",
+name = "electric-boiler-mk5",
+enabled = "false",
+ingredients = {
+{"electric-boiler-mk4", 2}, 
+{"advanced-circuit", 1},
+{"iron-plate", 10},
+{"tin-plate", 5},
+{"aluminium-plate", 5},
+{"copper-plate", 20},
+{"stainless-steel", 15}
+},
+result = "electric-boiler-mk5"
+},
 ---500C----
 
 {
@@ -407,6 +453,22 @@ ingredients = {
 result = "electric-boiler-mk4-2"
 },
 
+{
+type = "recipe",
+name = "electric-boiler-mk5-2",
+enabled = "false",
+ingredients = {
+{"boiler", 15}, 
+{"electric-boiler-mk4-2", 10}, 
+{"advanced-circuit", 10},
+{"iron-plate", 10},
+{"tin-plate", 5},
+{"aluminium-plate", 5},
+{"copper-plate", 20},
+{"steel-plate", 15}
+},
+result = "electric-boiler-mk5-2"
+},
 
 
 })

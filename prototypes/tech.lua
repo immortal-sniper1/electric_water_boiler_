@@ -32,7 +32,7 @@ order = "[boiler]-1"
 type = "technology",
 name = "electric-boiler-mk2",
 prerequisites = {"electric-boiler-mk1"},
-icon = "__electric_water_boiler__/graphics/icons/boiler1.png",
+icon = "__electric_water_boiler__/graphics/icons/boiler2.png",
 icon_size = 64,
 effects = 
 {
@@ -64,7 +64,7 @@ order = "[boiler]-1"
 type = "technology",
 name = "electric-boiler-mk3",
 prerequisites = {"electric-boiler-mk2"},
-icon = "__electric_water_boiler__/graphics/icons/boiler1.png",
+icon = "__electric_water_boiler__/graphics/icons/boiler3.png",
 icon_size = 64,
 effects = 
 {
@@ -96,7 +96,7 @@ order = "[boiler]-1"
 type = "technology",
 name = "electric-boiler-mk4",
 prerequisites = {"electric-boiler-mk3"},
-icon = "__electric_water_boiler__/graphics/icons/boiler1.png",
+icon = "__electric_water_boiler__/graphics/icons/boiler4.png",
 icon_size = 64,
 effects = 
 {
@@ -107,6 +107,14 @@ effects =
     {
   type = "unlock-recipe",
   recipe = "electric-boiler-mk3-2"
+  },
+      {
+  type = "unlock-recipe",
+  recipe = "electric-boiler-mk5"
+  },
+      {
+  type = "unlock-recipe",
+  recipe = "electric-boiler-mk5-2"
   },
     {
   type = "unlock-recipe",
@@ -161,7 +169,7 @@ order = "[boiler]-1"
 type = "technology",
 name = "electric-boiler-mk2",
 prerequisites = {"electric-boiler-mk1"},
-icon = "__electric_water_boiler__/graphics/icons/boiler1.png",
+icon = "__electric_water_boiler__/graphics/icons/boiler2.png",
 icon_size = 64,
 effects = 
 {
@@ -193,7 +201,7 @@ order = "[boiler]-1"
 type = "technology",
 name = "electric-boiler-mk3",
 prerequisites = {"electric-boiler-mk2"},
-icon = "__electric_water_boiler__/graphics/icons/boiler1.png",
+icon = "__electric_water_boiler__/graphics/icons/boiler3.png",
 icon_size = 64,
 effects = 
 {
@@ -225,7 +233,7 @@ order = "[boiler]-1"
 type = "technology",
 name = "electric-boiler-mk4",
 prerequisites = {"electric-boiler-mk3"},
-icon = "__electric_water_boiler__/graphics/icons/boiler1.png",
+icon = "__electric_water_boiler__/graphics/icons/boiler4.png",
 icon_size = 64,
 effects = 
 {
@@ -236,6 +244,14 @@ effects =
     {
   type = "unlock-recipe",
   recipe = "electric-boiler-mk3-2"
+  },
+        {
+  type = "unlock-recipe",
+  recipe = "electric-boiler-mk5"
+  },
+      {
+  type = "unlock-recipe",
+  recipe = "electric-boiler-mk5-2"
   },
     {
   type = "unlock-recipe",
@@ -291,7 +307,7 @@ order = "[boiler]-1"
 type = "technology",
 name = "electric-boiler-mk2",
 prerequisites = {"electric-boiler-mk1"},
-icon = "__electric_water_boiler__/graphics/icons/boiler1.png",
+icon = "__electric_water_boiler__/graphics/icons/boiler2.png",
 icon_size = 64,
 effects = 
 {
@@ -323,7 +339,7 @@ order = "[boiler]-1"
 type = "technology",
 name = "electric-boiler-mk3",
 prerequisites = {"electric-boiler-mk2"},
-icon = "__electric_water_boiler__/graphics/icons/boiler1.png",
+icon = "__electric_water_boiler__/graphics/icons/boiler3.png",
 icon_size = 64,
 effects = 
 {
@@ -355,7 +371,7 @@ order = "[boiler]-1"
 type = "technology",
 name = "electric-boiler-mk4",
 prerequisites = {"electric-boiler-mk3"},
-icon = "__electric_water_boiler__/graphics/icons/boiler1.png",
+icon = "__electric_water_boiler__/graphics/icons/boiler4.png",
 icon_size = 64,
 effects = 
 {
@@ -424,7 +440,7 @@ order = "[boiler]-1"
 type = "technology",
 name = "electric-boiler-mk2",
 prerequisites = {"electric-boiler-mk1"},
-icon = "__electric_water_boiler__/graphics/icons/boiler1.png",
+icon = "__electric_water_boiler__/graphics/icons/boiler2.png",
 icon_size = 64,
 effects = 
 {
@@ -458,7 +474,7 @@ order = "[boiler]-1"
 type = "technology",
 name = "electric-boiler-mk3",
 prerequisites = {"electric-boiler-mk2"},
-icon = "__electric_water_boiler__/graphics/icons/boiler1.png",
+icon = "__electric_water_boiler__/graphics/icons/boiler3.png",
 icon_size = 64,
 effects = 
 {
@@ -491,7 +507,7 @@ order = "[boiler]-1"
 type = "technology",
 name = "electric-boiler-mk4",
 prerequisites = {"electric-boiler-mk3"},
-icon = "__electric_water_boiler__/graphics/icons/boiler1.png",
+icon = "__electric_water_boiler__/graphics/icons/boiler4.png",
 icon_size = 64,
 effects = 
 {
@@ -502,6 +518,14 @@ effects =
     {
   type = "unlock-recipe",
   recipe = "electric-boiler-mk3-2"
+  },
+        {
+  type = "unlock-recipe",
+  recipe = "electric-boiler-mk5"
+  },
+      {
+  type = "unlock-recipe",
+  recipe = "electric-boiler-mk5-2"
   },
     {
   type = "unlock-recipe",

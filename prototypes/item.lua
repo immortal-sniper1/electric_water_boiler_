@@ -50,6 +50,17 @@ order = "b[steam-power]-a[electric-boiler]",
 place_result = "electric-boiler-mk4",
 stack_size = 50,
 },
+{
+type = "item",
+name = "electric-boiler-mk5",
+icon = "__electric_water_boiler__/graphics/icons/boiler5.png",
+icon_size = 64,
+
+subgroup = "energy",
+order = "b[steam-power]-a[electric-boiler]",
+place_result = "electric-boiler-mk5",
+stack_size = 50,
+},
 
 
 
@@ -105,7 +116,17 @@ order = "b[steam-power]-a[electric-boiler]",
 place_result = "electric-boiler-mk4-2",
 stack_size = 50,
 },
+{
+type = "item",
+name = "electric-boiler-mk5-2",
+icon = "__electric_water_boiler__/graphics/icons/boiler5-2.png",
+icon_size = 64,
 
+subgroup = "energy",
+order = "b[steam-power]-a[electric-boiler]",
+place_result = "electric-boiler-mk5-2",
+stack_size = 50,
+},
 
 
 

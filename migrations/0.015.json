@@ -1,0 +1,12 @@
+{
+  "entity":
+  [
+    ["electric-boiler-mk4", "electric-boiler-mk5"],
+    ["electric-boiler-mk4-2", "electric-boiler-mk5-2"]
+  ],
+  "item":
+  [
+    ["electric-boiler-mk4", "electric-boiler-mk5"],
+    ["electric-boiler-mk4-2", "electric-boiler-mk5-2"]
+  ]
+}
