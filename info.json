@@ -1,10 +1,12 @@
 {
 	"name": "electric_water_boiler",
-	"version": "0.0.19",
+	"version": "2.0.0",
 	"factorio_version": "1.1",
 	"title": "Electric boilers with tiers",
 	"author": "immortal_sniper1",
 	"contact": "zerefulquirra@gmail.com",
+	"factorio_version": "2.0",
+    "dependencies": ["base >= 2.0"],
 	"homepage": "-",
 	"description": "Boiler that uses electric power to turn water to steam "
 	
